@@ -1,0 +1,352 @@
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+/* INIZIO SEZIONE HEADER */
+header {
+
+    background-color: rgb(104, 225, 255);
+
+    background-image: url(./assets/img/jumbo.png);
+
+    background-size: cover;
+
+    min-height: 600px;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.container {
+
+    background-color: #255EE9;
+
+    min-height: 40px;
+
+    min-width: 60%;
+
+    margin-top: 20px;
+
+    color: white;
+
+    padding: 7px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-self: flex-start;
+
+}
+
+.logo-container {
+
+    background-image: url(./assets/img/logo.svg);
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    width: 20%;
+
+}
+
+.login-container {
+
+    text-align: right;
+
+    color: black;
+
+    width: 20%;
+
+}
+
+.span-accedi {
+
+    background-color: white;
+
+    border-radius: 30px;
+
+    padding: 8px;
+
+}
+
+div span a {
+
+    color: black;
+
+    text-decoration: none;
+
+}
+
+
+ul > li {
+
+    display: inline;
+
+    list-style: none;
+
+}
+
+li a {
+
+    text-decoration: none;
+
+    color: white;
+
+    margin-right: 30px;
+
+}
+/* FINE SEZIONE HEADER */
+/* INIZIO SECTION */
+/* SEZIONE FUCSIA */
+.section-fucsiablu {
+
+    background-color: rgb(3, 49, 146);
+
+    min-height: 500px;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.div-fucsia {
+
+    background-color: rgb(255, 99, 247);
+
+    width: 50%;
+
+    min-height: 400px;
+
+    border: 2px dashed black;
+
+}
+
+hr {
+
+    height: 5px;
+
+    background-color: grey;
+
+}
+
+
+/* SEZIONE BIANCOROSA */
+.section-biancorosa {
+
+    background-color: white;
+
+    min-height: 600px;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+.div-celeste {
+
+    background-color: rgb(3, 140, 252);
+
+    min-width: 700px;
+
+    min-height: 500px;
+
+    border: 2px dashed black;
+
+}
+
+.div-rosa {
+
+    background-color: rgb(255, 160, 234);
+
+    min-width: 400px;
+
+    min-height: 500px;
+
+    border: 2px dashed black;
+
+}
+/* SEZIONE GRIGIO */
+
+.section-grigio {
+
+    background-color: gray;
+
+    min-height: 600px;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.div-verde {
+
+    background-color: rgb(16, 177, 29);
+
+    min-width: 400px;
+
+    min-height: 500px;
+
+    border: 2px dashed black;
+
+}
+
+.div-azzurro {
+
+    background-color: rgb(3, 140, 252);
+
+    min-width: 700px;
+
+    min-height: 500px;
+
+    border: 2px dashed black;
+
+}
+/* SEZIONE MEGA */
+
+.section-mega {
+
+    background-color: lightgrey;
+
+    min-height: 1000px;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.mega-giallo {
+
+    background-color: rgb(255, 251, 44);
+
+    min-width: 1100px;
+
+    min-height: 900px;
+
+    border: 2px dashed black;
+
+}
+/* FINE SECTION */
+/* INIZIO FOOTER */
+
+.primo-footer-container {
+
+    background-color: rgba(0, 0, 0, 0.815);
+
+    min-width: 700px;
+
+    min-height: 600px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.div-grande-rosso {
+
+    background-color: rgb(255, 0, 0);
+
+    min-width: 300px;
+
+    min-height: 550px;
+
+    border: 2px dashed black;
+
+}
+
+.div-piccolo {
+
+    background-color: rgb(0, 150, 125);
+
+    min-width: 200px;
+
+    min-height: 550px;
+
+    border: 2px dashed black;
+
+}
+
+.secondo-footer-container {
+
+    background-color: rgba(0, 0, 0, 0.815);
+
+    min-width: 700px;
+
+    min-height: 150px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.div-finale {
+
+    background-color: rgb(255, 145, 0);
+
+    min-width: 1100px;
+
+    min-height: 80px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+
+}
+
+.div-sotto-div-finale {
+
+    background-color: darkkhaki;
+
+    padding: 10px;
+
+    border: 2px dashed black;
+
+}
+/* FINE FOOTER */
+
+
+
