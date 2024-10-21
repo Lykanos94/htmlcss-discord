@@ -482,7 +482,7 @@ span img {
 
 }
 
-ul {
+ul.ul-footer {
 
     display: flex;
 
@@ -490,19 +490,15 @@ ul {
 
 }
 
-ul>li:first-of-type {
+.li-footer {
 
     color: #A1A2FC;
 
-}
-
-ul li:not(:first-of-type) {
-
-    color: white;
-
-    margin-bottom: 5px;
+    margin-top: 10px;
 
 }
+
+
 
 .secondo-footer-container {
 
@@ -577,9 +573,6 @@ div.div-sotto-div-bottone a {
     color: white;
 
 }
-
-
-
 
 /* FINE FOOTER */
 

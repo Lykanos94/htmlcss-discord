@@ -21,3 +21,5 @@ htmlcss-discord
 9. in footer messo tutti ul li con i vari link
 
 10. fine footer aggiunto logo finale e link per registrarsi
+
+11. modificato footer con classi e sistemato i vari link
