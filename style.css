@@ -25,7 +25,9 @@ header {
 
     align-items: center;
 
-    justify-content: center;
+    justify-content: space-around;
+
+    flex-direction: column;
 
 }
 
@@ -37,7 +39,7 @@ header {
 
     min-width: 60%;
 
-    margin-top: 20px;
+    margin-top: 5px; 
 
     color: white;
 
@@ -47,7 +49,10 @@ header {
 
     justify-content: space-between;
 
-    align-self: flex-start;
+    align-self: center;
+
+    
+
 
 }
 
@@ -109,46 +114,80 @@ li a {
     margin-right: 30px;
 
 }
-/* FINE SEZIONE HEADER */
-/* INIZIO SECTION */
-/* SEZIONE FUCSIA */
-.section-fucsiablu {
 
-    background-color: rgb(3, 49, 146);
 
-    min-height: 500px;
+.div-testo-header {
 
-    width: 100%;
+    text-align: center;
+
+    color: white;
+
+}
+
+
+h1 {
+
+    font-size: 3em;
+
+}
+
+
+div > h4 {
+
+    font-size: large;
+
+}
+
+.container-download {
 
     display: flex;
 
     align-items: center;
 
-    justify-content: center;
-
 }
 
-.div-fucsia {
+.span-mac {
 
-    background-color: rgb(255, 99, 247);
 
-    width: 50%;
+    padding: 20px;
 
-    min-height: 400px;
+    color: black;
 
-    border: 2px dashed black;
+    background-color: white;
 
-}
+    border-radius: 30px;
 
-hr {
+    text-decoration: none;
 
-    height: 5px;
+    margin-bottom: 150px;
 
-    background-color: grey;
+    margin-right: 20px;
 
 }
 
 
+.span-apri {
+
+    padding: 20px;
+
+    background-color: black;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+    
+    margin-bottom: 150px;
+}
+
+
+.span-apri a {
+
+    color: white;
+
+}
+
+/* FINE SEZIONE HEADER */
+/* INIZIO SECTION */
 /* SEZIONE BIANCOROSA */
 .section-biancorosa {
 
@@ -170,13 +209,15 @@ hr {
 
 .div-celeste {
 
-    background-color: rgb(3, 140, 252);
+    background-image: url(./assets/img/item1.svg);
+
+    background-repeat: no-repeat;
 
     min-width: 700px;
 
     min-height: 500px;
 
-    border: 2px dashed black;
+    
 
 }
 
@@ -184,11 +225,11 @@ hr {
 
     background-color: rgb(255, 160, 234);
 
-    min-width: 400px;
+    width: 150px;
 
-    min-height: 500px;
+    min-height: 300px;
 
-    border: 2px dashed black;
+    
 
 }
 /* SEZIONE GRIGIO */
