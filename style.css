@@ -426,7 +426,7 @@ div > h4 {
 
     min-width: 700px;
 
-    min-height: 600px;
+    min-height: 500px;
 
     display: flex;
 
@@ -501,12 +501,6 @@ ul li:not(:first-of-type) {
     color: white;
 
     margin-bottom: 5px;
-
-}
-
-hr {
-
-    color: red;
 
 }
 
